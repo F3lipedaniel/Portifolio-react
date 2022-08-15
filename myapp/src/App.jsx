@@ -14,7 +14,7 @@ const posts = [
     author: {
       avatarUrl: 'https://github.com/f3lipedaniel.png',
       name: 'Felipe Daniel',
-      role: 'Web developer',
+      role: 'Web developer.',
 
     },
     content: [
