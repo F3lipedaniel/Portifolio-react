@@ -23,7 +23,7 @@ const posts = [
       {type: 'link', content:'👉jane.design/doctorcare'},
       
     ],
-    publishedAt: new Date('14-08-2022 15:59:00')
+    publishedAt: new Date('2022-05-03 14:58:00'),
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const posts = [
       {type: 'link', content:'👉jane.design/doctorcare'},
       
     ],
-    publishedAt: new Date('10-08-2022 15:59:00'),
+    publishedAt: new Date('2022-05-03 14:58:00'),
   },
   
 ]
@@ -53,6 +53,7 @@ export function App() {
         {posts.map(post => {
             return (
             <Post
+              key={post.id}
               author={post.author}
               content={post.content}
               publishedAt={post.publishedAt}
